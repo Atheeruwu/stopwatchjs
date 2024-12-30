@@ -1,3 +1,4 @@
+DEPLOYED: https://atheeruwu.github.io/stopwatchjs/
 ## Timer and Falling Flower Animation with JavaScript
 
 In this project, I created an interactive timer with a fun flower animation that enhances the user experience. Below are the main features and details of the code:
