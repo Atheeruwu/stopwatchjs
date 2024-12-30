@@ -1,0 +1,95 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ff77b7; /* Soft pink background */
+    overflow: hidden; /* Prevent overflow of falling flowers */
+    font-family: 'Poppins', sans-serif;
+    position: relative; /* Required for absolute positioning of falling flowers */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    background-color: #fff;
+    width: 40%;
+    min-width: 500px;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+    text-align: center;
+}
+
+.timer-display {
+    position: relative;
+    width: 92%;
+    background: #fff;
+    left: 4%;
+    font-family: 'Roboto Mono', monospace;
+    color: #ff1493; /* Deep pink color */
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.buttons {
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 120px;
+    height: 45px;
+    background-color: #ff66b2; /* Pink button color */
+    color: #fff;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons button:nth-last-child(2) {
+    background-color: #e35209; /* Red-orange for stop button */
+}
+
+.buttons button:nth-last-child(1) {
+    background-color: #f7df1e; /* Yellow for reset button */
+}
+
+.buttons button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Flower Animation */
+.flower {
+    position: absolute;
+    top: -50px;
+    font-size: 24px;
+    color: #ff1493; /* Pink flower color */
+    animation: fall 5s infinite ease-in;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(0) rotate(0);
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+    }
+}
