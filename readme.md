@@ -61,3 +61,15 @@ function startFlowerFall() {
 
 This project demonstrates my ability to handle interactive user interfaces using JavaScript and CSS, giving me the confidence to build engaging, responsive applications. It also showcases my attention to performance and detail, ensuring a pleasant user experience without unnecessary resource consumption.
 
+
+
+
+![stopwatch ](https://github.com/user-attachments/assets/2c9a7f21-99da-4a67-8228-455d46ac0ba6)
+
+![stopwatch2](https://github.com/user-attachments/assets/324bc3eb-fc53-45b8-9d0b-2cc35f11b8bd)
+
+
+
+
+
+
